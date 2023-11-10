@@ -1,19 +1,30 @@
 export default () => (
   <div>
+    <div className="welcome-banner">
+      Bienvenue sur notre site !
+    </div>
     <style jsx>{`
-    div {
-      background: #fdd;
-      margin: 0 auto;
-      padding: 4px 20px;
-      max-width: 800px;
-      border-radius: 4px;
-      color: #600;
-    }
-    a {
-      color: blue;
-      text-decoration: underline;
-    }
-  `}</style>
+      div {
+        background: #fdd;
+        margin: 0 auto;
+        padding: 4px 20px;
+        max-width: 800px;
+        border-radius: 4px;
+        color: #600;
+      }
+      .welcome-banner {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 4px;
+      }
+      a {
+        color: blue;
+        text-decoration: underline;
+      }
+    `}</style>
     <h2>⚠️ Heads up test: Medium isn’t using this tool anymore, but you’re welcome to!</h2>
     <p>
       <a href="https://medium.engineering/engineering-growth-at-medium-4935b3234d25">Read more about our current thinking around engineer growth</a>.
